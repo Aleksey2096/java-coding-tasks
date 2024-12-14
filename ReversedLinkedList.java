@@ -1,10 +1,9 @@
+import java.util.LinkedList;
+import java.util.List;
 
 /*
  * How do you reverse a linked list in Java?
  */
-import java.util.LinkedList;
-import java.util.List;
-
 public class ReversedLinkedList {
 	public static void main(String[] args) {
 
