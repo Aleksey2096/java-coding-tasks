@@ -8,7 +8,11 @@ import java.util.Scanner;
 public class TextFileStringFinder {
 
 	public static void main(String[] args) {
-
+		try {
+			System.out.println(findStringInFile("input.txt", "first"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static boolean findStringInFile(String filePath, String str) throws FileNotFoundException {

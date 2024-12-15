@@ -31,7 +31,7 @@ public class MatrixMultiplication {
 		int[][] matrix2 = { { 7, 8 }, { 9, 10 }, { 11, 12 } };
 		int[][] result = multiplyMatrices(matrix1, matrix2);
 
-		System.out.println("Resultant Matrix:");
+		System.out.println("Result Matrix:");
 		printMatrix(result);
 	}
 }
